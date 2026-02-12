@@ -1,6 +1,14 @@
 # SymBi
 Symmetric Continuous Subgraph Matching with Bidirectional Dynamic Programming
 
+## Build
+```bash
+cd src
+make
+mv main ../symbi
+cd ..
+```
+
 ## Usages
 ./symbi <initial_data_graph_file> <graph_update_stream_file> <query_graph_file> [num_operations]
 
